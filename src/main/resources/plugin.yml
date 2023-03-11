@@ -1,0 +1,4 @@
+name: ManulDynmapHideFix
+version: '${project.version}'
+main: com.github.manul694.manuldynmaphidefix.ManulDynmapHideFix
+api-version: 1.19
