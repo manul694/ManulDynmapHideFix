@@ -11,7 +11,7 @@ public class JoinHandler implements Listener {
     public void onJoin (PlayerJoinEvent e) {
         Player p = e.getPlayer();
         if(!p.hasPermission("dynmap.hide.self")) {
-            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "dynmap hide " + p.getName());
+            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "dynmap show " + p.getName());
         }
     }
 }
